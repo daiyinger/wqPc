@@ -1,0 +1,4 @@
+Makefile用法。
+在Makefile中使用了变量，即
+objects = main.o func1.o func2.o
+使用变量时，可以采用$(objects)的方式
