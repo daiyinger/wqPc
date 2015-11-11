@@ -1,0 +1,11 @@
+Makefile用法。
+在Makefile中使用了变量，即
+objects = main.o func1.o func2.o
+使用变量时，可以采用$(objects)的方式
+
+同时使用了宏，即
+CC = gcc或者CC = arm-linux-gcc
+使用宏时，要加圆括号(),即
+$(CC)
+
+添加了func3.c文件及func3.h文件
